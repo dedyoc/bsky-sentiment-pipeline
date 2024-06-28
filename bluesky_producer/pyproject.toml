@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "bluesky-producer"
+version = "0.1.0"
+description = ""
+authors = ["dedyoc <huyhoaius@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.12"
+confluent-kafka = "^2.4.0"
+atproto = "^0.0.48"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
